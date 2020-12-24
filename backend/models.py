@@ -4,7 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_login import UserMixin
 import json
 
-database_path = "sqlite:///trivia.db"
+database_path = os.environ.get('CLEARDB_DATABASE_URL')
 
 db = SQLAlchemy()
 
