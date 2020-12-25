@@ -22,6 +22,7 @@ class QuestionView extends Component {
       correctAnswer: 0,
       page: 1
     }
+  
   }
 
   componentDidMount() {

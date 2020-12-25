@@ -3,7 +3,7 @@ from flask import Flask, request, abort, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS
 from .extensions import paginate_questions
-from models import setup_db, Question, Options, Author
+from .models import setup_db, Question, Options, Author
 
 
 def create_app(test_config=None):

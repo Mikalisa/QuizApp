@@ -2,7 +2,7 @@
   "name": "quiz-app",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://127.0.0.1:5000/",
+  "proxy": "https://quizzeappp.herokuapp.com/",
   "dependencies": {
     "@auth0/auth0-react": "^1.2.0",
     "corsproxy": "^1.5.0",
